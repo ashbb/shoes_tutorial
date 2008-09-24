@@ -9,6 +9,6 @@ Shoes.app :width => 200, :height => 100, :title => 'Arc' do
     @c.remove if @c
     r = i * (PI * 0.01)
     @c = arc 100, 50, 180, 60, 0, i * (PI * 0.01)
-    a.remove if r >= TWO_PI
+    a.stop if r >= TWO_PI
   end
 end

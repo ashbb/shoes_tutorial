@@ -21,9 +21,9 @@ Shoes.app :width => 400, :height => 250 do
   keypress do |k|
     case k
       when 'p'
-        @a.remove
+        @a.stop
       when 'r'
-        @a.remove if @a
+        @a.stop if @a
         clear{sampling}
       else
     end

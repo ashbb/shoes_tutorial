@@ -8,7 +8,7 @@ Shoes.app :title => 'Sorter', :width => 180, :height => 80 do
     yar.transform :center
     a = animate(24) do |i|
       yar.rotate -15
-      a.remove if i > 22
+      a.stop if i > 22
     end
   end
   yar.hover{msg.text = strong('Click Yar. She sorts clipboard text!')}

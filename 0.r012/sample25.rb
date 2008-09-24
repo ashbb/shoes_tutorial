@@ -16,7 +16,7 @@ Shoes.app :width => 250, :height => 76 do
     end
   end
   icon.leave do
-    @a.remove
+    @a.stop
     msg.replace ''
   end
 end
