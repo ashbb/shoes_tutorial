@@ -5,6 +5,9 @@ All sample code and data and screenshots are under samples directory.
 
 Chang log:
 
+6th Oct. - Released one new sample code, sample39.rb and sample39-creature.rb
+           Screenshot is sample39.png
+
 3rd Oct. - Renamed directory '0.r012' to 'samples'
            Updated .doc and .pdf files.
            Include sample38.
