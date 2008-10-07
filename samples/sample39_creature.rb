@@ -1,12 +1,12 @@
 # sample39_creature.rb
-
 class Shoes::Creature < Shoes::Widget
   def initialize path, x, y
+    @path = path
     @img = image path
     @img.move x, y
   end
   
-  def glide args
+  def glide args, opt = {:line => false}
     args << @img.left << @img.top
     x1, y1, x0, y0 = args.collect{|e| e.to_f}
     
@@ -34,8 +34,20 @@ class Shoes::Creature < Shoes::Widget
         else
       end
         
-      @img.show.move x.to_i, y.to_i
-      (a.stop; @playing = false) if i == max
+      @l.remove if @l
+      strokewidth 6
+      @l = line(x0 + 15, y0 + 15, x.to_i + 15, y.to_i + 15, :stroke => thistle)  if opt[:line]
+      #@img.move x.to_i, y.to_i
+      @img.remove
+      @img = image @path, :left => x.to_i, :top => y.to_i
+      
+      if i == max
+        a.stop
+        @playing = false
+        line(x0 + 15, y0 + 15, x.to_i + 15, y.to_i + 15, :stroke => peru)  if opt[:line]
+        @img.remove
+        @img = image @path, :left => x.to_i, :top => y.to_i
+      end
     end
   end
     
