@@ -1,4 +1,4 @@
-# sample94.rb
+# sample40.rb
 Shoes.app :width => 330, :height => 150 do
   nofill
   strokewidth 2

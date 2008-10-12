@@ -1,9 +1,11 @@
-The latest Shoes Tutorial Note is shoes_tutorial_081012.pdf
+The latest Shoes Tutorial Note is shoes_tutorial_081013.pdf
 
 All sample code and data and screenshots are under samples directory.
 
 
 Chang log:
+
+13th Oct - Renamed sample94 to sample40 and added sample40-1.
 
 12th Oct - Added sample94, a hot topic and informers name.
 
