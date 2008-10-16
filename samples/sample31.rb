@@ -2,6 +2,7 @@
 Shoes.app :width => 150, :height => 70 do
   def number_on_disk
     fill eval(@color)
+    nostroke
     oval 0, 0, 30
     @l = para ''
     animate(3){@l.replace strong @i+=1, :stroke => white}

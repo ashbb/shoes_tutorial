@@ -1,4 +1,4 @@
 # sample14.rb
 Shoes.app do
-  background blue..red
+  background 0..100
 end

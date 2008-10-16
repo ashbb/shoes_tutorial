@@ -12,6 +12,7 @@ Shoes.app :width => 400, :height => 380, :title => 'Episode I' do
   rect 0, 0, 400, 380, :fill => sandybrown
   rect 10, 10, 380, 360, :fill => lavender, :curve => 10
   stack do
+    nostroke
     rect 10, 10, 380, 360, :fill => lightblue
     oval 50, 40, 100, :fill => green
     star 250, 245, 5, 100, 40, :fill => deeppink, :angle => 90

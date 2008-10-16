@@ -1,9 +1,12 @@
-The latest Shoes Tutorial Note is shoes_tutorial_081015.pdf
+The latest Shoes Tutorial Note is shoes_tutorial_081016.pdf
 
 All sample code and data and screenshots are under samples directory.
 
 
 Chang log:
+
+16th Oct - Revised some sample codes: sample 14, 28, 31, 34, 34-1, 37
+           and added some comments for Shoes-0.r1057.
 
 15th Oct - Added sample41 and a hot topic (6.3).
 
@@ -25,6 +28,13 @@ Chang log:
 
 1st Oct - Released one new sample code, sample37.rb
           Screenshot is sample37.png
+
+
+To do list:
+- the following samples need to revise for Shoes-0.r1057
+  - sample 18, 22, 36
+  - shoes --package
+
 
 Enjoy!
 
