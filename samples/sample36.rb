@@ -1,5 +1,5 @@
 # sample36.rb
-class Creature < Widget
+class Shoes::Creature < Shoes::Widget
  def initialize
    msg = para '', :stroke => white
    c = image Dir.pwd + '/yar.png'

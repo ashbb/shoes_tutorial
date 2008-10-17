@@ -1,5 +1,5 @@
 # sample18.rb
-class Hello < Widget
+class Shoes::Hello < Shoes::Widget
   def initialize
     para 'Hello World!', :align => 'center'
   end

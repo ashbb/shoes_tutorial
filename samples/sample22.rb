@@ -1,5 +1,5 @@
 # sample22.rb
-class Answer < Widget
+class Shoes::Answer < Shoes::Widget
   attr_reader :mark
   def initialize word
     para word
