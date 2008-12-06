@@ -6,9 +6,8 @@ The latest Shoes Tutorial Note have moved into [shoes\_tutorial\_html](http://gi
 Continuing to update the Shoes Tutorial Note on the above site.
 
 
-The followings are last .doc/.pdf version. Now closed updating.
-+ shoes\_tutorial\_081018.doc and shoes\_tutorial\_081018.pdf : October 18th, 2008
-+ shoes\_tutorial\_081015.doc and shoes\_tutorial\_081015.pdf : October 15th, 2008
+The following is a pdf file. Although it's not following the latest revision. :-P
++ shoes\_tutorial\_081203.pdf : Dec 3rd, 2008
 
 Let's enjoy Ruby and Shoes programming! :-D
 
