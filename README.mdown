@@ -7,7 +7,8 @@ Continuing to update the Shoes Tutorial Note on the above site.
 
 
 The following is a pdf file. Although it's not following the latest revision. :-P
-+ shoes\_tutorial\_081203.pdf : Dec 3rd, 2008
+
+- shoes\_tutorial\_081203.pdf : Dec 3rd, 2008
 
 Let's enjoy Ruby and Shoes programming! :-D
 
